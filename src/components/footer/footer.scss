@@ -1,0 +1,23 @@
+.footer {
+  padding: 72px 104px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+  align-items: center;
+
+
+  .copyright {
+    grid-column: 1 / span 3;
+  }
+  .navigation {
+    grid-column: 4 / span 9;
+
+    .linkGroup {
+      display: flex;
+
+      a {
+        margin-right: 20px;
+      }
+    }
+  }
+}

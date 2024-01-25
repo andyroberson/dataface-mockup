@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    border-bottom: 1px solid gray;
+    height: 64px;
+    z-index: 99;
+    padding: 0 80px;
+
+    .pageTitle {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .currentState {
+      span {
+        margin-left: 5px;
+      }
+    }
+}

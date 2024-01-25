@@ -1,0 +1,8 @@
+@use '../../styles/_base' as *;
+
+.medicalHeader {
+  background-color: $color-light-blue;
+  max-width: 100vw;
+  margin-top: 64px;
+  padding: 80px 104px;
+}

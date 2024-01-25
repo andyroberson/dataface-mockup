@@ -1,0 +1,36 @@
+/* Breakpoints
+// ========================================================================== */
+$break-1: 37.5em; // 600px
+$break-2: 56.25em; // 900px
+$break-3: 75em; // 1200px
+
+/* Padding
+// ========================================================================== */
+$padding-1: 30px;
+$padding-2: 15px;
+
+/* Typography
+// ========================================================================== */
+$browser-default-font-size:18px;
+$layout-size: 18px;
+$font-default: 'Monteserrat', sans-serif;
+
+/* Colors
+// ========================================================================== */
+$color-steel: #0A3D62;
+$color-gray: #4F7591;
+$color-bright-blue: #89DCFF; 
+$color-light-blue: #EFF8FF;
+$color-white: #ffffff;
+
+
+//* Reset default button
+// ========================================================================== */
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
